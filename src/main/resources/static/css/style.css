@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+form, .results {
+	width: 500px;
+	height: fit-content;
+	
+	padding: 10px;
+
+	border: 1px solid black;
+
+	display: flex;
+	flex-direction: column;
+	
+	gap: 10px;
+}
+
+span, .row {
+	width: 100%;
+
+	display: flex;
+	
+	justify-content: space-between;
+	align-items: flex-start;
+}
